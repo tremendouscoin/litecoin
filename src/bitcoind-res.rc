@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litecoin"
-            VALUE "FileDescription",    "tremendouscoind (Litecoin node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Tremendouscoin"
+            VALUE "FileDescription",    "tremendouscoind (Tremendouscoin node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "tremendouscoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR

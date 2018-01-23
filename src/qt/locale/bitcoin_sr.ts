@@ -130,7 +130,7 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
+        <source>Send coins to a Tremendouscoin address</source>
         <translation>Пошаљите новац на tremendouscoin адресу</translation>
     </message>
     <message>

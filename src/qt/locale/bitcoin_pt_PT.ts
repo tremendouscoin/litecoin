@@ -310,8 +310,8 @@
         <translation>A reindexar os blocos no disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Enviar moedas para um endereço Litecoin</translation>
+        <source>Send coins to a Tremendouscoin address</source>
+        <translation>Enviar moedas para um endereço Tremendouscoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -334,8 +334,8 @@
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Tremendouscoin</source>
+        <translation>Tremendouscoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -362,12 +362,12 @@
         <translation>Encriptar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Assine as mensagens com os seus endereços Litecoin para provar que é o proprietário dos mesmos</translation>
+        <source>Sign messages with your Tremendouscoin addresses to prove you own them</source>
+        <translation>Assine as mensagens com os seus endereços Tremendouscoin para provar que é o proprietário dos mesmos</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Litecoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified Tremendouscoin addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Tremendouscoin especificado</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,8 +406,8 @@
         <translation>&amp;Opções da linha de &amp;comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Litecoin</numerusform><numerusform>%n ligações ativas à rede Litecoin</numerusform></translation>
+        <source>%n active connection(s) to Tremendouscoin network</source>
+        <translation><numerusform>%n ligação ativa à rede Tremendouscoin</numerusform><numerusform>%n ligações ativas à rede Tremendouscoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -953,7 +953,7 @@
         <translation>&amp;Gastar troco não confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Tremendouscoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Abrir a porta do cliente tremendouscoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
@@ -961,8 +961,8 @@
         <translation>Mapear porta, utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede da Litecoin através dum proxy SOCLS5.</translation>
+        <source>Connect to the Tremendouscoin network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede da Tremendouscoin através dum proxy SOCLS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1001,8 +1001,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Ligar à rede Litecoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
+        <source>Connect to the Tremendouscoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Ligar à rede Tremendouscoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1096,8 +1096,8 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Litecoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tremendouscoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Tremendouscoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1213,8 +1213,8 @@
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Entre um endereço Litecoin (ex. %1)</translation>
+        <source>Enter a Tremendouscoin address (e.g. %1)</source>
+        <translation>Entre um endereço Tremendouscoin (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1549,8 +1549,8 @@
         <translation>Reutilizar um endereço de receção existente (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Litecoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tremendouscoin network.</source>
+        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Tremendouscoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1869,8 +1869,8 @@
         <translation>Este é um pagamento normal.</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
-        <translation>O endereço Litecoin para enviar o pagamento</translation>
+        <source>The Tremendouscoin address to send the payment to</source>
+        <translation>O endereço Tremendouscoin para enviar o pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1913,8 +1913,8 @@
         <translation>Introduza um rótulo para este endereço para o adicionar à sua lista de endereços usados</translation>
     </message>
     <message>
-        <source>A message that was attached to the tremendouscoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI tremendouscoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Litecoin.</translation>
+        <source>A message that was attached to the tremendouscoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tremendouscoin network.</source>
+        <translation>Uma mensagem que estava anexada ao URI tremendouscoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Tremendouscoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1954,8 +1954,8 @@
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo de modo a assinar a sua identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>O endereço Litecoin para designar a mensagem</translation>
+        <source>The Tremendouscoin address to sign the message with</source>
+        <translation>O endereço Tremendouscoin para designar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1986,8 +1986,8 @@
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço Litecoin</translation>
+        <source>Sign the message to prove you own this Tremendouscoin address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço Tremendouscoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2010,12 +2010,12 @@
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia quebras de linha, espaços, tabulações, etc. exactamente) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
-        <translation>O endereço Litecoin com que a mensagem foi designada</translation>
+        <source>The Tremendouscoin address the message was signed with</source>
+        <translation>O endereço Tremendouscoin com que a mensagem foi designada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Litecoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified Tremendouscoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Tremendouscoin especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2183,8 +2183,8 @@
         <translation>Não é possível iniciar o servidor HTTP. Verifique o debug.log para detalhes.</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Tremendouscoin Core</source>
+        <translation>Tremendouscoin Core</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>

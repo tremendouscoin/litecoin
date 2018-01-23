@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.tremendouscoin.Litecoin-Qt";
+        return @"org.tremendouscoin.Tremendouscoin-Qt";
     } else {
         return [self __bundleIdentifier];
     }

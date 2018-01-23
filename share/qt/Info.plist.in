@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Litecoin-Qt</string>
+  <string>Tremendouscoin-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Litecoin-Qt</string>
+  <string>Tremendouscoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.tremendouscoin.Litecoin-Qt</string>
+  <string>org.tremendouscoin.Tremendouscoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.tremendouscoin.LitecoinPayment</string>
+      <string>org.tremendouscoin.TremendouscoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>tremendouscoin</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.tremendouscoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Litecoin payment request</string>
+      <string>Tremendouscoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

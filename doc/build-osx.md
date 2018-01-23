@@ -24,7 +24,7 @@ In case you want to build the disk image with `make deploy` (.dmg / optional), y
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build Litecoin Core
+Build Tremendouscoin Core
 ------------------------
 
 1. Clone the tremendouscoin source code and cd into `tremendouscoin`
@@ -53,19 +53,19 @@ Build Litecoin Core
 Running
 -------
 
-Litecoin Core is now available at `./src/tremendouscoind`
+Tremendouscoin Core is now available at `./src/tremendouscoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=tremendouscoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Litecoin/tremendouscoin.conf"
+    echo -e "rpcuser=tremendouscoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Tremendouscoin/tremendouscoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Litecoin/tremendouscoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Tremendouscoin/tremendouscoin.conf"
 
 The first time you run tremendouscoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Litecoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Tremendouscoin/debug.log
 
 Other commands:
 -------

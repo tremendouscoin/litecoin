@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litecoin"
-            VALUE "FileDescription",    "tremendouscoin-tx (CLI Litecoin transaction editor utility)"
+            VALUE "CompanyName",        "Tremendouscoin"
+            VALUE "FileDescription",    "tremendouscoin-tx (CLI Tremendouscoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "tremendouscoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

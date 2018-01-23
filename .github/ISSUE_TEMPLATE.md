@@ -4,7 +4,7 @@ This issue tracker is only for technical issues related to tremendouscoin-core.
 
 General tremendouscoin questions and/or support requests and are best directed to the [tremendouscointalk.io forums](https://tremendouscointalk.io/).
 
-For reporting security issues, please contact the Litecoin developers on the #tremendouscoin-dev Freenode IRC channel or alternatively you can email us at contact@tremendouscoin.org.
+For reporting security issues, please contact the Tremendouscoin developers on the #tremendouscoin-dev Freenode IRC channel or alternatively you can email us at contact@tremendouscoin.org.
 
 ### Describe the issue
 
