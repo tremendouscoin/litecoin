@@ -3,26 +3,26 @@ https://tremendouscoin.org
 What is Tremendouscoin?
 ----------------
 
-TremendousCoin will start as an *anti-Trump* cryptocurrency/altcoin. The plan is to mostly give it away, in small amounts like 1 coin to any person claiming to be anti-Trump, and in much larger rewards, like 1,000+ coins, (probably unsolicited), to anti-Trump persons who have recently done notable (but legal) things to help stymie, enrage, thwart, obstruct etc. Trump. It may eventually gain value, but who knows?
+Tremendouscoin will start as an *anti-Trump* cryptocurrency/altcoin. The plan is to mostly give it away, in small amounts like 1 coin to any person claiming to be anti-Trump, and in much larger rewards, like 1,000+ coins, (probably unsolicited), to anti-Trump persons who have recently done notable (but legal) things to help stymie, enrage, thwart, obstruct etc. Trump. It may eventually gain value, but who knows?
 
 What's with the name?
 ----------------
 
 According to yourdictionary.com, "Tremendous" is Trump's 17th most (over)used word.
 
-By using the name TremendousCoin rather than actually incorporating the so-called 45th U.S. President's name, TremendousCoin is also poised to actually well *outlive* the hopefully brief Trump era, as a general left-leaning, or at least non-right-leaning, coin.
+By using the name Tremendouscoin rather than actually incorporating the so-called 45th U.S. President's name, Tremendouscoin is also poised to actually well *outlive* the hopefully brief Trump era, as a general left-leaning, or at least non-right-leaning, coin.
 
 Does it suck because it's not technically innovative yet?
 ----------------
 
-Technically, TremendousCoin, at least early versions, may be very NON-innovative -- a self-avowed *"shitcoin"*, depending on how you define shitcoin...
+Technically, Tremendouscoin, at least early versions, may be very NON-innovative -- a self-avowed *"shitcoin"*, depending on how you define shitcoin...
 
 However, this coin may serve as an example of a technically un-innovative, but *socially or politically relevant*, cryptocurrency gaining success.
 
 Useful as a clear-cut Tremendouscoin Clone Template? (and also Safe-ish and Trustworthy-ish)
 ----------------
 
-TremendousCoin will use a more recent codebase (version 0.1.0 is based on Tremendouscoin 0.14) than many shitcoins (many use Tremendouscoin 0.8 etc).
+Tremendouscoin will use a more recent codebase (version 0.1.0 is based on Tremendouscoin 0.14) than many shitcoins (many use Tremendouscoin 0.8 etc).
  
 Its modification from the original Tremendouscoin codebase will also strive to be extremely well-documented.
  
@@ -47,7 +47,7 @@ Feel free to keep track of this project or to offer to help!
 
 Version 0.1.0 Motto
 -------
-*"TremendousCoin ... It's already worth more than Trump's word!"*
+*"Tremendouscoin ... It's already worth more than Trump's word!"*
 
 License
 -------
