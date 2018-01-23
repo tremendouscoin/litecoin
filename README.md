@@ -1,9 +1,9 @@
 Litecoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/litecoin-project/litecoin.svg?branch=master)](https://travis-ci.org/litecoin-project/litecoin)
+[![Build Status](https://travis-ci.org/tremendouscoin-project/tremendouscoin.svg?branch=master)](https://travis-ci.org/tremendouscoin-project/tremendouscoin)
 
-https://litecoin.org
+https://tremendouscoin.org
 
 What is Litecoin?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Litecoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Litecoin Core software, see [https://litecoin.org](https://litecoin.org).
+the Litecoin Core software, see [https://tremendouscoin.org](https://tremendouscoin.org).
 
 License
 -------
@@ -27,16 +27,16 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/litecoin-project/litecoin/tags) are created
+completely stable. [Tags](https://github.com/tremendouscoin-project/tremendouscoin/tags) are created
 regularly to indicate new official, stable release versions of Litecoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/litecoin-dev)
+The developer [mailing list](https://groups.google.com/forum/#!forum/tremendouscoin-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #litecoin-dev.
+Developer IRC can be found on Freenode at #tremendouscoin-dev.
 
 Testing
 -------

@@ -128,7 +128,7 @@ to see it.
 
 **testnet and regtest modes**
 
-Run with the -testnet option to run with "play litecoins" on the test network, if you
+Run with the -testnet option to run with "play tremendouscoins" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option.
@@ -186,7 +186,7 @@ Threads
 
 - ThreadRPCServer : Remote procedure call handler, listens on port 9332 for connections and services them.
 
-- BitcoinMiner : Generates litecoins (if wallet is enabled).
+- BitcoinMiner : Generates tremendouscoins (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.
 
@@ -490,7 +490,7 @@ Git and GitHub tips
 
         [remote "upstream-pull"]
                 fetch = +refs/pull/*:refs/remotes/upstream-pull/*
-                url = git@github.com:litecoin-project/litecoin.git
+                url = git@github.com:tremendouscoin-project/tremendouscoin.git
 
   This will add an `upstream-pull` remote to your git repository, which can be fetched using `git fetch --all`
   or `git fetch upstream-pull`. Afterwards, you can use `upstream-pull/NUMBER/head` in arguments to `git show`,

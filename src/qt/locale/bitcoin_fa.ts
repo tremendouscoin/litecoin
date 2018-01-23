@@ -374,8 +374,8 @@
         <translation>نوارابزار برگه‌ها</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس litecoin)</translation>
+        <source>Request payments (generates QR codes and tremendouscoin: URIs)</source>
+        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس tremendouscoin)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -386,8 +386,8 @@
         <translation>نمایش لیست آدرس های دریافت و لیبل ها</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>بازکردن یک litecoin: آدرس یا درخواست پرداخت</translation>
+        <source>Open a tremendouscoin: URI or payment request</source>
+        <translation>بازکردن یک tremendouscoin: آدرس یا درخواست پرداخت</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

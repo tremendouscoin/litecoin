@@ -366,12 +366,12 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja litecoini: URId)</translation>
+        <source>Request payments (generates QR codes and tremendouscoin: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja tremendouscoini: URId)</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Ava litecoini: URI või maksepäring</translation>
+        <source>Open a tremendouscoin: URI or payment request</source>
+        <translation>Ava tremendouscoini: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
