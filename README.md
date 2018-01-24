@@ -26,7 +26,7 @@ Tremendouscoin will use a more recent codebase (version 0.1.0 is based on Tremen
  
 Its modification from the original Tremendouscoin codebase will also strive to be extremely well-documented.
  
-For example we will fork right from tremendouscoin-project/tremendouscoin so that anyone can perform easy comparisons with tremendouscoin right on github. This may lead to a modicum of *trust/safety* in the compiled code since anyone will be able to follow clearly how the code was modified from a well-known coin. It may also lead to being a well-known *Tremendouscoin forking example* for others working on creating Tremendouscoin forks to follow (and contribute to!)
+For example we will fork right from litecoin-project/litecoin so that anyone can perform easy comparisons with litecoin right on github. This may lead to a modicum of *trust/safety* in the compiled code since anyone will be able to follow clearly how the code was modified from a well-known coin. It may also lead to being a well-known *Tremendouscoin forking example* for others working on creating Tremendouscoin forks to follow (and contribute to!)
 
 Reality check
 ----------------
@@ -48,6 +48,17 @@ Feel free to keep track of this project or to offer to help!
 Version 0.1.0 Motto
 -------
 *"Tremendouscoin ... It's already worth more than Trump's word!"*
+
+
+Technical instructions
+-------
+Want to compile from source, etc.?
+
+In general, follow the patterns in the [Litecoin docs](doc) which have been modified as far as syntax but not substance to be Tremendouscoin-specific.
+
+However in addition we will have a few substantially specific [Tremendouscoin-specific docs](doc-tremendouscoin).
+
+
 
 License
 -------

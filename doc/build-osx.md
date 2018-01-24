@@ -29,7 +29,7 @@ Build Tremendouscoin Core
 
 1. Clone the tremendouscoin source code and cd into `tremendouscoin`
 
-        git clone https://github.com/tremendouscoin-project/tremendouscoin
+        git clone https://github.com/tremendouscoin/tremendouscoin
         cd tremendouscoin
 
 2.  Build tremendouscoin-core:
