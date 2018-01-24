@@ -54,9 +54,9 @@ Technical instructions
 -------
 Want to compile from source, etc.?
 
-In general, follow the patterns in the [Litecoin docs](doc).
+In general, follow the patterns in the [Litecoin docs](doc) which have been modified as far as syntax but not substance to be Tremendouscoin-specific.
 
-However in addition we will have a few extra-special [Tremendouscoin-specific docs](doc-tremendouscoin).
+However in addition we will have a few substantially specific [Tremendouscoin-specific docs](doc-tremendouscoin).
 
 
 
