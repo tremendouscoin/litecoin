@@ -50,7 +50,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "23/Jan/2018 CNN Trump trails Sanders, Biden and Oprah";
+    const char* pszTimestamp = "26/Jan/2018 CNN What Trump's attempt to fire Mueller shows us";
     const CScript genesisOutputScript = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -70,9 +70,9 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 840000;
+        consensus.nSubsidyHalvingInterval = 20000;
         consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("3e55bee2eaab8b99f8a07e1a9120ed42e404068e7479cd477e9a5aa5d301cc20");
+        consensus.BIP34Hash = uint256S("f5e44b87e7c51e62f891bc2d40f6ba36b4a0567ad3603b127a0d226e551bd925");
         consensus.BIP65Height = 0;
         consensus.BIP66Height = 0;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
@@ -107,17 +107,17 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xfb;
-        pchMessageStart[1] = 0xc0;
-        pchMessageStart[2] = 0xb6;
-        pchMessageStart[3] = 0xdb;
+        pchMessageStart[0] = 0xcb;
+        pchMessageStart[1] = 0xc1;
+        pchMessageStart[2] = 0xd6;
+        pchMessageStart[3] = 0xab;
         nDefaultPort = 10347;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1516734272, 140960, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1516987176, 2989678, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x3e55bee2eaab8b99f8a07e1a9120ed42e404068e7479cd477e9a5aa5d301cc20"));
-        assert(genesis.hashMerkleRoot == uint256S("0x82507c90f3a997f04ca57277dccb2475bcbbaa8e32bd2496173deb7186a1cc72"));
+        assert(consensus.hashGenesisBlock == uint256S("0xf5e44b87e7c51e62f891bc2d40f6ba36b4a0567ad3603b127a0d226e551bd925"));
+        assert(genesis.hashMerkleRoot == uint256S("0xf2b366dfa503ab54522da4039d08a865e9d82cbb3aa3bca45243fec4f0489588"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         //vSeeds.push_back(CDNSSeedData("loshan.co.uk", "seed-a.tremendouscoin.loshan.co.uk", true));
@@ -126,12 +126,12 @@ public:
         //vSeeds.push_back(CDNSSeedData("tremendouscoinpool.org", "dnsseed.tremendouscoinpool.org"));
         //vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,66); // Tremendouscoin PUBKEY_ADDRESS will start with T
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,53);
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,5);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,126);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x05)(0x87)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x05)(0x87)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
@@ -142,7 +142,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (  0, uint256S("0x3e55bee2eaab8b99f8a07e1a9120ed42e404068e7479cd477e9a5aa5d301cc20"))
+            (  0, uint256S("0xf5e44b87e7c51e62f891bc2d40f6ba36b4a0567ad3603b127a0d226e551bd925"))
         };
 
         chainTxData = ChainTxData{
@@ -167,7 +167,7 @@ public:
         consensus.BIP65Height = 76; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
         consensus.BIP66Height = 76; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
+        consensus.nPowTargetTimespan = 30 * 60; // 30 minutes
         consensus.nPowTargetSpacing = 2.5 * 60;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
@@ -193,17 +193,17 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x43a16a626ef2ffdbe928f2bc26dcd5475c6a1a04f9542dfc6a0a88e5fcf9bd4c"); //8711
 
-        pchMessageStart[0] = 0xfd;
-        pchMessageStart[1] = 0xd2;
-        pchMessageStart[2] = 0xc8;
-        pchMessageStart[3] = 0xf1;
+        pchMessageStart[0] = 0xfa;
+        pchMessageStart[1] = 0xd9;
+        pchMessageStart[2] = 0xc9;
+        pchMessageStart[3] = 0xa1;
         nDefaultPort = 19335;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1486949366, 879740, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1486949366, 56246, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x02545fc7a29b02e393f3c96516285cce63391292b04c22517745846f18194e9b"));
-        assert(genesis.hashMerkleRoot == uint256S("0x82507c90f3a997f04ca57277dccb2475bcbbaa8e32bd2496173deb7186a1cc72"));
+        assert(consensus.hashGenesisBlock == uint256S("0xa2479dc7fa9d532e546822eaf88d5d89e329b495ccdaea9b842481b6687cfe14"));
+        assert(genesis.hashMerkleRoot == uint256S("0xf2b366dfa503ab54522da4039d08a865e9d82cbb3aa3bca45243fec4f0489588"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -212,12 +212,12 @@ public:
         //vSeeds.push_back(CDNSSeedData("loshan.co.uk", "seed-b.tremendouscoin.loshan.co.uk", true));
         //vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed-testnet.thrasher.io", true));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,58);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,77);
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,121);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,82);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x32)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x32)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
@@ -228,7 +228,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x02545fc7a29b02e393f3c96516285cce63391292b04c22517745846f18194e9b")),
+            ( 0, uint256S("0xa2479dc7fa9d532e546822eaf88d5d89e329b495ccdaea9b842481b6687cfe14")),
         };
 
         chainTxData = ChainTxData{
@@ -276,17 +276,17 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0xda;
+        pchMessageStart[0] = 0xaa;
+        pchMessageStart[1] = 0xbb;
+        pchMessageStart[2] = 0xb1;
+        pchMessageStart[3] = 0xfa;
         nDefaultPort = 19444;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1296688602, 1, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x3fddb2562ec59bbea8092a3c13a50fe1c1c582dfae44763c32aea487e62433ba"));
-        assert(genesis.hashMerkleRoot == uint256S("0x82507c90f3a997f04ca57277dccb2475bcbbaa8e32bd2496173deb7186a1cc72"));
+        assert(consensus.hashGenesisBlock == uint256S("0x016f164485ee58fc6577a892c4a19af0641cc4bd53b9bc4e4412dac8fa189d3c"));
+        assert(genesis.hashMerkleRoot == uint256S("0xf2b366dfa503ab54522da4039d08a865e9d82cbb3aa3bca45243fec4f0489588"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
@@ -298,7 +298,7 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x3fddb2562ec59bbea8092a3c13a50fe1c1c582dfae44763c32aea487e62433ba"))
+            ( 0, uint256S("0x016f164485ee58fc6577a892c4a19af0641cc4bd53b9bc4e4412dac8fa189d3c"))
         };
 
         chainTxData = ChainTxData{
@@ -307,12 +307,12 @@ public:
             0
         };
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,58);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,77);
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,121);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,82);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x32)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x32)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
     }
 
     void UpdateBIP9Parameters(Consensus::DeploymentPos d, int64_t nStartTime, int64_t nTimeout)

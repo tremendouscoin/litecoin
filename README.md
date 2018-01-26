@@ -39,7 +39,7 @@ Today's cleaned-up code *will* compile into
 * working tremendouscoind on my AWS Ubuntu server
 
 ...the above can connect to each other, and mining into a laptop wallet can be done using a pooling server!!!
-(See https://github.com/tremendouscoin/tremendouscoin-solo-mining)
+(See https://github.com/tremendouscoin/tremendouscoin-pool-server)
 
 ##### However, This is by no means a real coin at the moment. The blockchain may be re-started several times before we say "WE'LL DO IT LIVE! FUCK IT!"
 
