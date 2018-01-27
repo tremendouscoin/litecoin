@@ -19,7 +19,7 @@ Technically, Tremendouscoin, at least early versions, may be very NON-innovative
 
 However, this coin may serve as an example of a technically un-innovative, but *socially or politically relevant*, cryptocurrency gaining success.
 
-Useful as a clear-cut Tremendouscoin Clone Template? (and also Safe-ish and Trustworthy-ish)
+Useful as a clear-cut Litecoin Clone Template? (and also Safe-ish and Trustworthy-ish)
 ----------------
 
 Tremendouscoin will use a more recent codebase (version 0.1.0 is based on Litecoin 0.14) than many shitcoins (many use Litecoin 0.8 etc).
