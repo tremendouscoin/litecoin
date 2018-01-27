@@ -1,4 +1,4 @@
-https://tremendouscoin.org
+https://tremendousco.in
 
 What is Tremendouscoin?
 ----------------
