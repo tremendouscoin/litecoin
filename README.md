@@ -22,11 +22,11 @@ However, this coin may serve as an example of a technically un-innovative, but *
 Useful as a clear-cut Tremendouscoin Clone Template? (and also Safe-ish and Trustworthy-ish)
 ----------------
 
-Tremendouscoin will use a more recent codebase (version 0.1.0 is based on Tremendouscoin 0.14) than many shitcoins (many use Tremendouscoin 0.8 etc).
+Tremendouscoin will use a more recent codebase (version 0.1.0 is based on Litecoin 0.14) than many shitcoins (many use Litecoin 0.8 etc).
  
-Its modification from the original Tremendouscoin codebase will also strive to be extremely well-documented.
+Its modification from the original Litecoin codebase will also strive to be extremely well-documented.
  
-For example we will fork right from litecoin-project/litecoin so that anyone can perform easy comparisons with litecoin right on github. This may lead to a modicum of *trust/safety* in the compiled code since anyone will be able to follow clearly how the code was modified from a well-known coin. It may also lead to being a well-known *Tremendouscoin forking example* for others working on creating Tremendouscoin forks to follow (and contribute to!)
+For example we will fork right from litecoin-project/litecoin so that anyone can perform easy comparisons with litecoin right on github. This may lead to a modicum of *trust/safety* in the compiled code since anyone will be able to follow clearly how the code was modified from a well-known coin. It may also lead to being a well-known *Litecoin forking example* for others working on creating Litecoin forks to follow (and contribute to!)
 
 Reality check
 ----------------
