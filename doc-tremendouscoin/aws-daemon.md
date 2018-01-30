@@ -39,7 +39,20 @@ git status
 Then:
 ```
 ./autogen.sh
-./configure --disable-wallet
+
+```
+
+I've found that the upcoming ./configure command will not work unless you either
+a) run it as ```./configure --without-wallet``` or b) first, run:
+
+```
+wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+```
+
+Now you can do:
+```
+./configure
 make
 ```
 
